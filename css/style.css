@@ -216,7 +216,6 @@ textarea{min-height:140px;resize:vertical}
 .legal{border-top:1px solid rgba(255,255,255,.12);padding:16px 0;font-size:.85rem;display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-between}
 .cmt-ack{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:20px 0;border-top:1px solid rgba(255,255,255,.12);color:#d9bfca}
 .cmt-ack p{max-width:900px;margin:0;font-size:.9rem}
-.cmt-ack strong{display:inline-block;color:#fff;margin-bottom:4px}
 .cmt-ack img{width:72px;height:72px;flex:none}
 @media(max-width:560px){.cmt-ack{align-items:flex-start;flex-direction:column;gap:14px}}
 
