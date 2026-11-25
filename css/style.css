@@ -115,6 +115,18 @@ a{color:var(--link)}
 .card li{margin-bottom:4px}
 .link-more{font-weight:600;text-decoration:none}
 .link-more::after{content:" \2192"}
+.announcements{background:var(--surface)}
+.announcement-list{display:grid;gap:14px}
+.announcement-row{display:grid;grid-template-columns:130px 110px minmax(0,1fr) auto;gap:20px;align-items:center;padding:22px 24px;border:1px solid var(--line);border-radius:12px;background:var(--bg)}
+.announcement-date{color:var(--mute);font-weight:600}
+.announcement-type{color:var(--link);font-size:.88rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.announcement-copy h3{margin:0 0 4px;font-size:1.15rem}
+.announcement-copy p{margin:0;color:var(--mute)}
+.announcement-link{white-space:nowrap}
+.announcement-link span{margin-left:4px}
+.announcement-note{margin:18px 0 0;color:var(--mute);font-size:.92rem}
+@media(max-width:900px){.announcement-row{grid-template-columns:110px 90px minmax(0,1fr);gap:12px}.announcement-link{grid-column:3;justify-self:start}}
+@media(max-width:620px){.announcement-row{grid-template-columns:100px minmax(0,1fr);gap:8px 14px;padding:18px}.announcement-copy,.announcement-link{grid-column:1/-1}.announcement-link{justify-self:start}}
 
 /* stats */
 .stats{background:var(--navy);color:#fff}
